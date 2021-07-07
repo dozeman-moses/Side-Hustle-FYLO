@@ -1,0 +1,508 @@
+body {
+ background-color: hsl(217, 28%, 15%);
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 80%;
+    margin: 40px 20px;
+}
+
+#main-header #main-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+#main-header #main-nav li {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: -50px;
+    left: 160px;
+    padding-right: 30px;
+}
+
+#main-header #main-nav a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    transition: all 0.5s;
+} 
+
+#main-header #main-nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.intro {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 20px;
+}
+
+.intro h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8em;
+    line-height: 1.4em;
+}
+
+.intro p {
+    color: white;
+    text-align: center;
+    font-size: 1.0em;
+    font-weight: 400;
+}
+
+.intro button {
+    border: none;
+    padding: 14px 16px;
+    background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 30px;
+    width: 280px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    left: 60px;
+    top: 20px;
+    color: white;
+}
+
+/* FEATURES SECTION */
+.feature {
+    position: relative;
+    top: 130px;
+    left: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.feature-1, .feature-2, .feature-3, .feature-4 {
+    margin-bottom: 100px;
+}
+
+.feature-1, .feature-2, .feature-3, .feature-4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* PRODUCTIVITY */
+.productive{
+  margin-top: 350px;
+  position: relative;
+  left: 20px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.h1-1 {
+    position: relative;
+    top: -28px;
+    left: 355px;
+}
+
+.productive-2 p {
+    position: relative;
+    top: -20px;
+}
+
+.productive-2 a{
+    color: hsl(176, 68%, 64%);
+    font-family: 'Open sans', sans-serif;
+    position: relative;
+    top: -20px;
+}
+
+.productive-2 img {
+    position: relative;
+    top: -17px;
+}
+
+/* TESTIMONIALS */
+.Testimonial {
+    margin-top: 200px;
+    background-image: url(bg-quotes.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 20px;
+}
+
+.Testimonial-1, .Testimonial-2, .Testimonial-3 {
+    display: grid;
+    border-radius: 20px;
+    background-color: hsl(219, 30%, 18%);
+    margin-top: 40px;
+    padding: 30px;
+    color: hsl(0, 0%, 100%);
+    width: 330px;
+}
+
+.Testimonial-1, .Testimonial-2, .Testimonial-3 h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+.tst{
+    border-radius: 50%;
+    width: 55px;
+    position: relative;
+    top: 25px;
+}
+
+.name {
+    position: relative;
+    top: -40px;
+    left: 60px;
+    font-size: 1.7em;
+}
+
+.title {
+    position: relative;
+    left: 62px;
+    top: -50px;
+    font-size: 1.2em;
+}
+
+.Testimonial-1{
+    position: relative;
+    top: 30px;
+}
+
+.Testimonial-2 {
+    position: relative;
+    top: 18px;
+}
+
+.Testimonial-3 h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.Testimonial-3 h2 {
+    position: relative;
+    top: -45px;
+    left: 60px;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Testimonial-3 small {
+    position: relative;
+    left: 62px;
+    top: -60px;
+    font-size: 0.9em;
+}
+
+/* CTA */
+ .cta {
+    display: grid;
+    border-radius: 20px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 280px;
+}
+
+.cta h1 {
+    font-size: 30px;
+}
+
+.cta p {
+    font-size: 16px;
+}
+
+.cta input {
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.cta button {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 20px; 
+    color: white;
+    background-color: hsl(176, 68%, 64%);
+    font-weight: bold;
+    font-size: 1em;
+}  
+
+/* FOOTER SECTION */
+ #main-footer {
+    background-color:  hsl(216, 53%, 9%);
+    padding: 300px 50px 50px 70px;
+    width: 80%;
+    margin-left: -20px;
+    color: white;
+}
+
+.fylo-1 {
+    position: relative;
+    left: 20px;
+} 
+
+ .location {
+    position: relative;
+    top: 40px;
+    right: 178px;
+}
+
+ .content-1 h1 {
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+}
+
+ .content-2 span {
+    position: relative;
+    left: 20px;
+    top: -5px;
+    font-size: 1.2em;
+}
+
+ .cnt {
+    padding-top: 20px;
+}
+
+
+.content-3 {
+    padding-top: 80px;
+}
+
+.content-3 li {
+    list-style: none;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+ .content-4 {
+    padding-top: 80px;
+}
+
+.content-4 li {
+    list-style: none;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.content-5 {
+    padding-top: 30px;
+}
+
+.content-5 .icon{
+    position: relative;
+    left: 130px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+
+.content-5 .icon:hover{
+    color:hsl(198, 60%, 50%)
+}
+
+@media screen and (min-width: 768px){
+    .container {
+        max-width: 80%;
+        margin: 40px auto;
+    }
+
+    .fylo-logo img{
+        width: 200px;
+    }
+
+    #main-header #main-nav ul{
+        display: flex;
+        list-style: none;
+    }
+
+    #main-header #main-nav li {
+        position: relative;
+        left: 900px;
+        top: -70px;
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    .intro button{
+        position: relative;
+        left: -15px;
+    }
+    
+    .feature {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+        grid-gap: 80px;
+    }
+
+    .file-1 {
+        position: relative;
+        left: -120px;
+    }
+
+    .file-2 {
+        position: relative;
+        top: -18px;
+    }
+
+    .file-3 {
+        position: relative;
+        top: -18px;
+        left: 10px; 
+    }
+
+    .file-4 {
+        position: relative;
+        left: -80px;
+        top: -15px;
+    }
+
+    .file-5 {
+        position: relative;
+        left: 83px;
+        top: -33px;
+    }
+
+    .file-6 {
+        position: relative;
+        top: -18px;
+        left: 25px; 
+    }
+
+    .file-7 {
+        position: relative;
+        left: -88px;
+        top: -15px;
+    }
+
+    .file-8 {
+        position: relative;
+        top: -33px;
+        left: 92px;
+    }
+
+    .file-9 {
+        position: relative;
+        top: -15px;
+        left: -180px; 
+    }
+
+    .file-10 {
+        position: relative;
+        top: -33px;
+        left: -23px;
+    }
+
+    .productive {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+        grid-gap: 50px;
+    }
+
+    .h1-1 {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Testimonial {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Testimonial-1{
+        position: relative;
+        top: -5px;
+    }
+    
+    .Testimonial-2, .Testimonial-3 {
+        margin-left: 30px;
+        padding-right: 20px;
+        position: relative;
+        top: -8px;
+    }
+
+    .cta {
+        width: 700px;
+        position: relative;
+        left: 180px;
+    }
+
+    .cta-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cta-1 input{
+        width: 400px;
+    }
+    
+    .cta-1 button {
+        width: 200px;
+        border-radius: 20px;
+        padding: 0px;
+        height: 50px;
+        position: relative;
+        top: 5px;
+        left: 10px;
+    }
+
+    #main-footer {
+        display: flex;
+        padding: 300px 50px 50px 70px;
+        width: 93%;
+    }
+
+    .cnt-1 {
+        position: relative;
+        top: 22px;
+        left: -206px;
+    }
+
+    .content-5 .icon{
+        position: relative;
+        left: -20px;
+        top: 25px;
+    }
+
+    .content-2 {
+        position: relative;
+        top: 70px;
+        left: -150px;
+    }
+
+    .content-3 {
+        position: relative;
+        top: -30px;
+        left: -80px;
+    }
+
+    .content-4 {
+        position: relative;
+        top: -30px;
+        left: -50px;
+    }
+}
+
+
+
+
+
+
+
+
